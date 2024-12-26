@@ -1,78 +1,70 @@
-# Job Portal Project - MERN Stack
+# Getting Started with Create React App
 
-Welcome to the Job Portal project! This application is designed to provide a platform for users to find and apply for job opportunities. It is built using the MERN (MongoDB, Express.js, React, Node.js) stack. Please keep in mind that this is the developer's first large-scale project, so the file structure might not be optimal.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project Overview
+## Available Scripts
 
-The Job Portal project allows users to:
+In the project directory, you can run:
 
-- Browse and search for job listings
-- Create an account to apply for jobs
-- Post job openings for employers
-- Manage job applications
+### `npm start`
 
-## Technologies Used
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **React**: Frontend library for building user interfaces.
-- **Node.js**: JavaScript runtime for building scalable network applications.
-- **Express.js**: Web application framework for Node.js.
-- **MongoDB**: NoSQL database for storing application data.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Additional Packages Used
+### `npm test`
 
-- **bcryptjs**: Library for hashing passwords securely.
-- **Formik & Yup**: Form library for React applications with validation using Yup.
-- **react-bootstrap**: Bootstrap components as React components for easy UI development.
-- **react-router-dom**: Declarative routing for React applications.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Getting Started
+### `npm run build`
 
-To run the project locally, follow these steps:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Prerequisites
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Make sure you have the following installed:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Node.js
-- npm
-- MongoDB
+### `npm run eject`
 
-### Installation
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. Clone the repository:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-   ```bash
-   git clone https://github.com/your-username/job-portal.git
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-2. Change into the project directory:
-    ```bash
-    cd job-frontend
-    npm install -f
-    ```
-  
-    ```bash
-    cd job-backend
-    npm i -f
-    ```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-3. Create a .env file with necessary url's and variables.
+## Learn More
 
-4. Run the client server with:
-   ```bash
-   npm start
-   ```
-5. Run the backend server with:
-   ```bash
-   npm start
-   ```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Known Issues
-As mentioned earlier, this is the developer's first large-scale project, and the file structure may not be optimal. Additionally, there might be some bugs or incomplete features. Please feel free to contribute by submitting issues or pull requests.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Future Improvements
-The following enhancements are planned for future releases:
+### Code Splitting
 
-Improved file structure
-Enhanced user authentication and authorization
-Additional features for employers and job seekers
-Thank you for checking out the Job Portal project! If you have any questions or feedback, please don't hesitate to reach out. Happy coding!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
